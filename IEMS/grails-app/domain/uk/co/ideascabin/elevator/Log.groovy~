@@ -1,0 +1,11 @@
+package uk.co.ideascabin.elevator
+
+class Log {
+		Datetime dateTimeLog
+		Int carNo
+		Tinyint authorisedUser
+		Int callingFloor
+		Int calledFloor
+    static constraints = {
+    }
+}

@@ -1,8 +1,10 @@
 package uk.co.ideascabin.elevator
 
-class User {
-		Integer userID
-		Boolean authorisedUser
+class Car {
+		Int carNo
+		Tinyint parked
+		Tinyint travellingUp
+
     static constraints = {
     }
 }
