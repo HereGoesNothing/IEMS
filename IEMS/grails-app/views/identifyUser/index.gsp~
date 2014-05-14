@@ -6,6 +6,12 @@
 	
 	</head>
 	<body>
+		<div class="nav" role="navigation">
+			<ul>
+				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+			</ul>
+		</div>
 		<h1>This is where the IEMS system will verify your identity.</h1><p>
 		<br>	
 		<p>Unfortunately the lifts are not available without registration on the system.
@@ -24,7 +30,7 @@
 		
 		<g:else if test= "${params.name = null}">
 		
-		<p>If you are not registered, then please seek assistance at the security office.
+		<p>If you are not registered, then please press home or seek assistance at the security office.
 		<p>Thank you for your understanding.
 		</g:else>
 		

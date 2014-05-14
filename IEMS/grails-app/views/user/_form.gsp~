@@ -1,6 +1,7 @@
 <%@ page import="uk.co.ideascabin.elevator.User" %>
 
 
+
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'authorisedUser', 'error')} ">
 	<label for="authorisedUser">
 		<g:message code="user.authorisedUser.label" default="Authorised User" />

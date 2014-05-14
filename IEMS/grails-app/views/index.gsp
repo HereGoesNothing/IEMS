@@ -12,7 +12,7 @@
 		<g:link controller="identifyUser" action="index"> This link will take you through to verify your identity and establish your privileges within IEMS!</g:link>
 		<br>
 		<br>
-		<g:link controller="user" action="list"> This link will take you through to complete registration with IEMS</g:link>
+		<g:link controller="user" action="create"> This link will take you through to complete registration with IEMS</g:link>
 		
 	</body>
 </html>
