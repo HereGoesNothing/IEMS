@@ -1,9 +1,9 @@
 package uk.co.ideascabin.elevator
 
 class Car {
-		Int carNo
-		Tinyint parked
-		Tinyint travellingUp
+		Integer carNo
+		Boolean parked
+		Boolean travellingUp
 
     static constraints = {
     }

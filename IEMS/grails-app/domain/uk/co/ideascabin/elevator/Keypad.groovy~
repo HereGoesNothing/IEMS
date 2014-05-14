@@ -1,0 +1,19 @@
+package uk.co.ideascabin.elevator
+
+class Keypad {
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		Integer buttonZero
+		String buttonStar
+		String buttonHash
+
+    static constraints = {
+    }
+}

@@ -1,8 +1,8 @@
 package uk.co.ideascabin.elevator
 
 class User {
-		Int userID
-		Tinyint authorisedUser
+		Integer userID
+		Boolean authorisedUser
     static constraints = {
     }
 }

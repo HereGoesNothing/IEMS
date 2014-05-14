@@ -4,7 +4,6 @@ class Car {
 		Integer carNo
 		Boolean parked
 		Boolean travellingUp
-
     static constraints = {
     }
 }

@@ -32,6 +32,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${userInstance?.name}">
+				<li class="fieldcontain">
+					<span id="name-label" class="property-label"><g:message code="user.name.label" default="Name" /></span>
+					
+						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${userInstance}" field="name"/></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${userInstance?.userID}">
 				<li class="fieldcontain">
 					<span id="userID-label" class="property-label"><g:message code="user.userID.label" default="User ID" /></span>
