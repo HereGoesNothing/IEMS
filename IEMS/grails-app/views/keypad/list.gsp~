@@ -39,7 +39,7 @@
 		<form method= "post">
 		<br>
 		<form action="post">
-		Please select the floor you are calling from here: <input type="number" name="quantity" min="-1" max="9">
+  			Quantity (between -1 and 9): <input type="number" name="quantity" min="-1" max="9">
   		<input type="submit">
 		</form>
 		<br>
